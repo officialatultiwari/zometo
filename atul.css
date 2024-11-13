@@ -1,0 +1,344 @@
+
+ /* css reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* css varible */
+:root{
+    --navbar-height: 59px;
+
+}
+
+ /*navigation bar */
+ 
+ 
+ #navbar{
+    display: flex;
+    align-items: center;
+    
+ }
+ /*navigation bar logo and image */
+ #logo{
+      margin: -23px -28px;
+
+ }
+ #logo img{
+    height: 50px;
+    margin: 31px 29px;
+    border-radius: 50px;
+    
+ }
+
+
+
+
+ /*  navigation bar :list styling*/
+ #navbar{
+    position: fixed;
+ }
+ #navbar ul{
+    display: flex;
+ }
+
+ #navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 112%;
+    width: 100vw;
+    z-index: -1;
+    opacity: 0.4;
+ }
+ #navbar ul li {
+   /* color: white;*/
+    list-style: none;
+    font-size: 1.5rem;
+    display: flex;
+    flex-wrap: wrap ;
+
+ }
+ #navbar ul li a{
+    color: white;
+    display: flex;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    display: inline;
+    margin-right: 88px;
+    
+
+   
+    
+
+ }
+ #btn1{
+    background-color: rgb(255, 255, 253);
+    cursor: pointer;
+
+
+   
+
+ }
+ #navbar ul li a:hover{
+    color: black;
+    background-color: white;
+ }
+ #navbar ul li div serceh{
+   text-align: right;
+ }
+
+
+ /* home*/
+ #home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+ }
+ #home::before{
+    content: "";
+    position: absolute;
+    background: url('pizaa.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 3.4;
+ }
+ #home h1{
+    color: #fcfcfc;
+    text-align: center;
+    font-family: cursive;
+    font-size: 5.5rem;
+    
+
+ }
+ #home p{
+    color: red;
+   background-color: rgba(0, 0, 0, .3);
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+    
+ }       /*service section*/
+ #service{
+    margin: -1px;
+    display: flex;
+    
+ }
+ #service .box{
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 23px;
+    background-color: rgb(253, 244, 244);
+    
+
+
+ }
+ #service .box img{
+    height: 160px;
+    margin: auto;
+    display: block;
+    
+    
+
+ }
+ 
+.h-primary{
+    font-size: 3.33rem;
+    padding: 33px;
+    color: black;
+   
+}
+.h-secondry{
+    font-size: 3.33rem;
+    padding: 14 px;
+}
+#btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: rgb(6, 50, 247);
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 30pxpx;
+    cursor: pointer;
+    transition: .5s;
+   
+}
+.center{
+    text-align: center;
+}
+
+/* /* ================================ zometo partners ======================= */
+#zometopertners{
+   
+}
+.zomatopertners{
+   
+   
+   background: url('pizaa.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   opacity: 9.4;
+   
+   
+
+   
+}
+   
+
+#pertners{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.pertner-item{
+   padding: 34px;
+}
+
+#pertners img{
+   height: auto;
+   margin: 50px;
+   border-radius: 35%;
+}
+.zomatopertners h1{
+   color: white;
+}
+
+
+/* menu =============================sectoiom */
+#fodemanu{
+   height: 300px;
+}
+.fodemanu{
+   background: url('loctionatul.png');
+   background-color: chartreuse;
+   background-repeat: no-repeat;
+   background-size: cover;
+   opacity: 9.4;
+   
+
+}
+#menu{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.menuitem{
+   padding: 100px;
+}
+/* contact section================================================*/
+#contact{
+   position: relative;
+}
+#contact{
+
+   background: url('ajay.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   opacity: 9.4;
+   height: 600px;
+
+}
+#contact-box{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: 100px;
+}
+#contact-box input,
+#contact-box textarea{
+   width: 400%;
+   padding: 7px;
+
+}
+label{
+   font-size: larger;
+   font-weight: 800;
+   color:black;
+}
+#contact h1{
+   color: white;
+   
+}
+
+
+.form-group{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+footer{
+   background: black;
+   color: #fd054a;
+   padding: 9px 20px;
+   font-size: 150%;
+}
+#contact-box{
+   width: 100%;
+   padding: 3.1rem;
+}
+.btn3{
+   padding: 6px 20px;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: rgb(6, 50, 247);
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 30pxpx;
+    cursor: pointer;
+    transition: .5s;
+}
+
+
+@media only screen and (max-width: 460px) {
+
+   #navbar {
+     flex-direction: column;
+   }
+   #navbar ul {
+     flex-direction: column;
+   }
+   #navbar ul li {
+     margin-bottom: 10px;
+   }
+   #navbar ul li a {
+     padding: 10px;
+   }
+   #home {
+     height: 400px;
+   }
+   #home h1 {
+     font-size: 3rem;
+   }
+   #service {
+     flex-direction: column;
+   }
+   #service .box {
+     margin-bottom: 20px;
+     background-color: #fd054a;
+   }
+   #zometopertners {
+     height: 200px;
+   }
+   #fodemanu {
+     height: 200px;
+   }
+   #contact {
+     height: 400px;
+   }
+   #contact-box {
+     padding: 20px;
+   }
+   #contact-box input, #contact-box textarea {
+     width: 100%;
+   }
+ }
+ 

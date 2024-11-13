@@ -1,0 +1,83 @@
+/* navigation*/
+#navbar{
+    flex-direction: column;
+}
+/* home section */
+#home{
+    height: 370px;
+    flex-direction: column;
+    padding: 8px 68px;
+
+
+}
+#home::before{
+    height: 480px;
+
+}
+#home p{
+    font-size: 13px;
+}
+/* service section */
+#service{
+    display:grid;
+
+}
+#service .box{
+    flex-direction: column;
+    display: grid;
+
+}
+/* zomotopartners*/
+#zomatopertners{
+    flex-wrap: wrap;
+
+}
+#zomatopertners img{
+    width: 66px;
+    padding: 6px;
+    height: auto;
+}
+@media only screen and (max-width: 768px) {
+    #navbar {
+      flex-direction: column;
+    }
+    #navbar ul {
+      flex-direction: column;
+    }
+    #navbar ul li {
+      margin-bottom: 10px;
+    }
+    #navbar ul li a {
+      padding: 10px;
+    }
+    #home {
+      height: 400px;
+    }
+    #home h1 {
+      font-size: 3rem;
+    }
+    #service {
+      flex-direction: column;
+    }
+    #service .box {
+      margin-bottom: 20px;
+    }
+    #zometopertners {
+      height: 200px;
+    }
+    #fodemanu {
+      height: 200px;
+    }
+    #contact {
+      height: 400px;
+    }
+    #contact-box {
+      padding: 20px;
+    }
+    #contact-box input, #contact-box textarea {
+      width: 100%;
+    }
+  }
+  
+
+
